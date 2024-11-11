@@ -6,6 +6,7 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
+    if (email === '' || password === '') {
       Alert.alert('Error', 'Please enter both email and password');
       return;
     }
