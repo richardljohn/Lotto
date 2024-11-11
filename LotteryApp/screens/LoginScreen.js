@@ -5,7 +5,6 @@ const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  // Function to handle login (you'll replace this with actual authentication)
   const handleLogin = () => {
     if (email === '' || password === '') {
       Alert.alert('Error', 'Please enter both email and password');
@@ -15,8 +14,7 @@ const LoginScreen = ({ navigation }) => {
     // Placeholder for authentication logic
     if (email === 'test@example.com' && password === 'password') {
       Alert.alert('Success', 'You are logged in!');
-      // You can redirect to another screen after successful login
-      // navigation.navigate('HomeScreen');
+
     } else {
       Alert.alert('Error', 'Invalid email or password');
     }
