@@ -11,7 +11,6 @@ const LoginScreen = ({ navigation }) => {
       return;
     }
 
-    // Placeholder for authentication logic
     if (email === 'test@example.com' && password === 'password') {
       Alert.alert('Success', 'You are logged in!');
 
