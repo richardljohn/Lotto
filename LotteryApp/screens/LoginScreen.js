@@ -15,7 +15,7 @@ const LoginScreen = ({ navigation }) => {
       Alert.alert('Success', 'You are logged in!');
 
     } else {
-      Alert.alert('Error', 'Invalid email or password');
+      Alert.alert('Error', 'Invalid credentials');
     }
   };
 
